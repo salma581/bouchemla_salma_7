@@ -1,3 +1,4 @@
+@use"../scss/variables"as *;
 .banner{
     display: flex;
     background: rgba(0, 0, 0,8);
@@ -16,6 +17,6 @@
 .banner_title{
     position: absolute;
     z-index: 3;
-    color: white;
+    color:$color-tertiary;
     font-weight: 400;
 }
